@@ -53,9 +53,4 @@ namespace DesignPatternImplementation
             return prototypes[type].Clone();
         }
     }
-
-    public class Prototype
-    {
-
-    }
 }

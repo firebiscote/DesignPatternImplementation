@@ -7,7 +7,7 @@
 
         private Controller() { }
 
-        public static Controller getModel()
+        public static Controller GetModel()
         {
             lock (instanceLock)
             {
