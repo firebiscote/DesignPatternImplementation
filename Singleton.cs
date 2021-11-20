@@ -1,18 +1,18 @@
 ﻿namespace DesignPatternImplementation
 {
-    public class Model
+    public class Controller
     {
-        private static Model instance;
+        private static Controller instance;
         static readonly object instanceLock = new object();
 
-        private Model() { }
+        private Controller() { }
 
-        public static Model getModel()
+        public static Controller getModel()
         {
             lock (instanceLock)
             {
                 if (instance == null)
-                    instance = new Model();
+                    instance = new Controller();
                 return instance;
             }
         }
