@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternImplementation.Creational
+namespace DesignPatternImplementation.Creational.Factory
 {
     public class AnimalFactory
     {

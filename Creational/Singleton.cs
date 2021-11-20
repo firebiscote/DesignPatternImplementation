@@ -1,4 +1,4 @@
-﻿namespace DesignPatternImplementation
+﻿namespace DesignPatternImplementation.Creational.Singleton
 {
     public class Controller
     {

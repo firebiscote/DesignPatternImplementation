@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatternImplementation
+namespace DesignPatternImplementation.Creational.Prototype
 {
     public enum RecordType
     {
