@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*Le pont est un patron de conception qui permet de découpler 
+ * l'interface d'une classe et son implémentation. 
+ * Ainsi l'interface et l'implémentation peuvent varier séparément.
+ * */
+
+using System;
 
 namespace DesignPatternImplementation.Structural
 {
@@ -11,7 +16,7 @@ namespace DesignPatternImplementation.Structural
     {
         void IDrawingAPI.DrawCircle(double x, double y, double radius)
         {
-            Console.WriteLine("API1.circle pos " + x + ":" + y + " rad " + radius);
+            Console.WriteLine("API2D.circle pos " + x + ":" + y + " rad " + radius);
         }
     }
 
@@ -19,7 +24,7 @@ namespace DesignPatternImplementation.Structural
     {
         void IDrawingAPI.DrawCircle(double x, double y, double radius)
         {
-            Console.WriteLine("API2.circle pos " + x + ":" + y + " rad " + radius);
+            Console.WriteLine("API2DIso.circle pos " + x + ":" + y + " rad " + radius);
         }
     }
 

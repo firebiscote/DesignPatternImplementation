@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*La fabrique (factory) est un patron de conception de création utilisé 
+ * en programmation orientée objet. Comme les autres modèles de création, 
+ * la fabrique a pour rôle l'instanciation d'objets divers dont le type 
+ * n'est pas prédéfini : les objets sont créés dynamiquement en fonction 
+ * des paramètres passés à la fabrique.
+ * */
+
+using System;
 
 namespace DesignPatternImplementation.Creational.Factory
 {

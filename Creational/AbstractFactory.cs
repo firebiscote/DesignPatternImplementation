@@ -1,4 +1,14 @@
-﻿using System;
+﻿/*Une fabrique abstraite encapsule un groupe de fabriques ayant une 
+ * thématique commune. Le code client crée une implémentation concrète 
+ * de la fabrique abstraite, puis utilise les interfaces génériques pour 
+ * créer des objets concrets de la thématique. Le client ne se préoccupe 
+ * pas de savoir laquelle de ces fabriques a donné un objet concret, car 
+ * il n'utilise que les interfaces génériques des objets produits. 
+ * Ce patron de conception sépare les détails d'implémentation d'un 
+ * ensemble d'objets de leur usage générique.
+ * */
+
+using System;
 
 namespace DesignPatternImplementation.Creational.AbstractFactory
 {

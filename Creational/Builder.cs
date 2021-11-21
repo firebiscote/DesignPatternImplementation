@@ -1,6 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿/*Le monteur (builder) est un patron de conception utilisé pour la 
+ * création d'une variété d'objets complexes à partir d'un objet source. 
+ * L'objet source peut consister en une variété de parties contribuant 
+ * individuellement à la création de chaque objet complet grâce à un 
+ * ensemble d'appels à l'interface commune de la classe abstraite Monteur.
+ * */
 
 namespace DesignPatternImplementation.Creational.Builder
 {

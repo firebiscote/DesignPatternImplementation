@@ -1,4 +1,12 @@
-﻿namespace DesignPatternImplementation.Creational.Singleton
+﻿/*Le singleton est un patron de conception dont l'objet est de restreindre 
+ * l'instanciation d'une classe à un seul objet (ou bien à quelques objets seulement). 
+ * Il est utilisé lorsque l'on a besoin d'exactement un objet pour coordonner des 
+ * opérations dans un système. Le modèle est parfois utilisé pour son efficacité, 
+ * lorsque le système est plus rapide ou occupe moins de mémoire avec peu d'objets 
+ * qu'avec beaucoup d'objets similaires.
+ * */
+
+namespace DesignPatternImplementation.Creational.Singleton
 {
     public class Controller
     {
