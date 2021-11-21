@@ -3,7 +3,7 @@
  * L'objet source peut consister en une variété de parties contribuant 
  * individuellement à la création de chaque objet complet grâce à un 
  * ensemble d'appels à l'interface commune de la classe abstraite Monteur.
- * */
+ */
 
 namespace DesignPatternImplementation.Creational.Builder
 {

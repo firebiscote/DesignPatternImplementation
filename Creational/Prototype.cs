@@ -2,7 +2,7 @@
  * instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs 
  * instances de la classe, on copie la première instance et on modifie la copie 
  * de façon appropriée.
- * */
+ */
 
 using System;
 using System.Collections.Generic;

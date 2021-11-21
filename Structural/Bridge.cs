@@ -1,7 +1,7 @@
 ﻿/*Le pont est un patron de conception qui permet de découpler 
  * l'interface d'une classe et son implémentation. 
  * Ainsi l'interface et l'implémentation peuvent varier séparément.
- * */
+ */
 
 using System;
 

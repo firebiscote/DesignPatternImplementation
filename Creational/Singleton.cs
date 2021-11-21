@@ -4,7 +4,7 @@
  * opérations dans un système. Le modèle est parfois utilisé pour son efficacité, 
  * lorsque le système est plus rapide ou occupe moins de mémoire avec peu d'objets 
  * qu'avec beaucoup d'objets similaires.
- * */
+ */
 
 namespace DesignPatternImplementation.Creational.Singleton
 {

@@ -6,11 +6,11 @@
  * Habituellement, la façade est réalisée en réduisant les fonctionnalités 
  * de ce dernier mais en fournissant toutes les fonctions nécessaires 
  * à la plupart des utilisateurs.
- * */
+ */
 
 using System;
 
-namespace DesignPatternImplementation.Structural
+namespace DesignPatternImplementation.Structural.Facade
 {
     public class UserFriendlyName
     {

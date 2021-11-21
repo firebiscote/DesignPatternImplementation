@@ -6,7 +6,7 @@
  * il n'utilise que les interfaces génériques des objets produits. 
  * Ce patron de conception sépare les détails d'implémentation d'un 
  * ensemble d'objets de leur usage générique.
- * */
+ */
 
 using System;
 

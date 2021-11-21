@@ -3,7 +3,7 @@
  * la fabrique a pour rôle l'instanciation d'objets divers dont le type 
  * n'est pas prédéfini : les objets sont créés dynamiquement en fonction 
  * des paramètres passés à la fabrique.
- * */
+ */
 
 using System;
 
