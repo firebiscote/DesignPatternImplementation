@@ -11,7 +11,7 @@
 
 using System;
 
-namespace DesignPatternImplementation.Behavior
+namespace DesignPatternImplementation.Behavior.Observer
 {
     public class Observer
     {

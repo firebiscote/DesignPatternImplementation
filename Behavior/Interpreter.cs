@@ -8,7 +8,7 @@
 
 using System.Collections.Generic;
 
-namespace DesignPatternImplementation.Behavior
+namespace DesignPatternImplementation.Behavior.Interpreter
 {
     public interface IExpression
     {

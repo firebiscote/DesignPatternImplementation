@@ -10,7 +10,7 @@
 
 using System;
 
-namespace DesignPatternImplementation.Behavior
+namespace DesignPatternImplementation.Behavior.Command
 {
     public class Switch
     {

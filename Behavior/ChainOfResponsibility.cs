@@ -9,7 +9,7 @@
 
 using System;
 
-namespace DesignPatternImplementation.Behavior
+namespace DesignPatternImplementation.Behavior.ChainOfResponsability
 {
     public class Logger
     {

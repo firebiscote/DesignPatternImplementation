@@ -9,10 +9,8 @@
  */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DesignPatternImplementation.Behavior
+namespace DesignPatternImplementation.Behavior.Iterator
 {
     public interface IEnumerator
     {

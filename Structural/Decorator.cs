@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatternImplementation.Structural
+namespace DesignPatternImplementation.Structural.Decorator
 {
     public interface ICar
     {
