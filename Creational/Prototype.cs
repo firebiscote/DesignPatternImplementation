@@ -1,13 +1,16 @@
-﻿/*Le patron de conception prototype est utilisé lorsque la création d'une 
+﻿/* Le patron de conception prototype est utilisé lorsque la création d'une 
  * instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs 
  * instances de la classe, on copie la première instance et on modifie la copie 
  * de façon appropriée.
  */
 
-/* Complexité 1/3
- * Popularité 2/3
- * Prototype est un patron de conception qui crée de nouveaux objets à partir 
+/* Prototype est un patron de conception qui crée de nouveaux objets à partir 
  * d’objets existants sans rendre le code dépendant de leur classe.
+ * 
+ * Complexité 1/3
+ * Popularité 2/3
+ * 
+ * Le prototype est prêt à l’emploi dans C# avec une interface ICloneable.
  */
 
 using System;

@@ -1,4 +1,4 @@
-﻿/*Une fabrique abstraite encapsule un groupe de fabriques ayant une 
+﻿/* Une fabrique abstraite encapsule un groupe de fabriques ayant une 
  * thématique commune. Le code client crée une implémentation concrète 
  * de la fabrique abstraite, puis utilise les interfaces génériques pour 
  * créer des objets concrets de la thématique. Le client ne se préoccupe 
@@ -8,11 +8,16 @@
  * ensemble d'objets de leur usage générique.
  */
 
-/* Complexité 2/3
- * Popularité 3/3
- * Fabrique abstraite est un patron de conception qui permet de 
+/* Fabrique abstraite est un patron de conception qui permet de 
  * créer des familles d’objets apparentés sans préciser leur 
  * classe concrète.
+ * 
+ * Complexité 2/3
+ * Popularité 3/3
+ * 
+ * Le patron fabrique abstraite est très répandu en C#. Il est utilisé par 
+ * de nombreux frameworks et bibliothèques afin d’étendre et de personnaliser 
+ * leurs composants standards.
  */
 
 using System;

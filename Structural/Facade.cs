@@ -1,4 +1,4 @@
-﻿/*Le patron de conception façade a pour but de cacher une conception 
+﻿/* Le patron de conception façade a pour but de cacher une conception 
  * et une interface ou un ensemble d'interfaces complexes difficiles 
  * à comprendre (cette complexité étant apparue "naturellement" avec 
  * l'évolution du sous-système en question). La façade permet de simplifier 
@@ -6,6 +6,17 @@
  * Habituellement, la façade est réalisée en réduisant les fonctionnalités 
  * de ce dernier mais en fournissant toutes les fonctions nécessaires 
  * à la plupart des utilisateurs.
+ */
+
+/* Façade est un patron de conception structurel qui procure une interface 
+ * offrant un accès simplifié à une librairie, un framework ou à n’importe 
+ * quel ensemble complexe de classes.
+ * 
+ * Complexité 1/3
+ * Popularité 2/3
+ * 
+ * La façade est régulièrement utilisée dans les applications écrites en C#. 
+ * Elle se révèle très pratique pour gérer les bibliothèques complexes et les API.
  */
 
 using System;

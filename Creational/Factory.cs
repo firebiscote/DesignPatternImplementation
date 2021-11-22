@@ -1,15 +1,19 @@
-﻿/*La fabrique (factory) est un patron de conception de création utilisé 
+﻿/* La fabrique (factory) est un patron de conception de création utilisé 
  * en programmation orientée objet. Comme les autres modèles de création, 
  * la fabrique a pour rôle l'instanciation d'objets divers dont le type 
  * n'est pas prédéfini : les objets sont créés dynamiquement en fonction 
  * des paramètres passés à la fabrique.
  */
 
-/* Complexité 1/3
- * Popularité 3/3
- * Fabrique est un patron de conception de création qui définit 
+/* Fabrique est un patron de conception de création qui définit 
  * une interface pour créer des objets dans une classe mère, 
  * mais délègue le choix des types d’objets à créer aux sous-classes.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * La fabrique est très largement utilisée en C#. Elle est très utile 
+ * lorsque vous avez besoin de flexibilité dans votre code.
  */
 
 using System;

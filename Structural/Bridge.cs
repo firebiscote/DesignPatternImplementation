@@ -1,6 +1,21 @@
-﻿/*Le pont est un patron de conception qui permet de découpler 
+﻿/* Le pont est un patron de conception qui permet de découpler 
  * l'interface d'une classe et son implémentation. 
  * Ainsi l'interface et l'implémentation peuvent varier séparément.
+ */
+
+/* Le Pont est un patron de conception structurel qui permet de 
+ * séparer une grosse classe ou un ensemble de classes connexes en 
+ * deux hiérarchies — abstraction et implémentation — qui peuvent 
+ * évoluer indépendamment l’une de l’autre.
+ * 
+ * Complexité 3/3
+ * Popularité 1/3
+ * 
+ * Le patron de conception pont est très utile pour gérer les 
+ * applications multiplateformes, prendre en charge différents 
+ * types de serveurs de bases de données ou travailler avec plusieurs 
+ * fournisseurs d’API d’un certain genre (par exemple les plateformes 
+ * de cloud, réseaux sociaux, etc.).
  */
 
 using System;

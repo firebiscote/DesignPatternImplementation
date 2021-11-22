@@ -1,7 +1,18 @@
-﻿/*Un décorateur permet d'attacher dynamiquement de nouveaux 
+﻿/* Un décorateur permet d'attacher dynamiquement de nouveaux 
  * comportements ou responsabilités à un objet. Les décorateurs 
  * offrent une alternative assez souple à l'héritage pour composer 
  * de nouvelles fonctionnalités.
+ */
+
+/* Décorateur est un patron de conception structurel qui permet 
+ * d’affecter dynamiquement de nouveaux comportements à des objets 
+ * en les plaçant dans des emballeurs qui implémentent ces comportements.
+ * 
+ * Complexité 2/3
+ * Popularité 2/3
+ * 
+ * Le décorateur est assez standard en C#, surtout dans le code qui 
+ * utilise les flux (stream).
  */
 
 namespace DesignPatternImplementation.Structural.Decorator

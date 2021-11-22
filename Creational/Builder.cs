@@ -1,16 +1,21 @@
-﻿/*Le monteur (builder) est un patron de conception utilisé pour la 
+﻿/* Le monteur (builder) est un patron de conception utilisé pour la 
  * création d'une variété d'objets complexes à partir d'un objet source. 
  * L'objet source peut consister en une variété de parties contribuant 
  * individuellement à la création de chaque objet complet grâce à un 
  * ensemble d'appels à l'interface commune de la classe abstraite Monteur.
  */
 
-/* Complexité 2/3
- * Popularité 3/3
- * Monteur est un patron de conception de création qui permet de 
+/* Monteur est un patron de conception de création qui permet de 
  * construire des objets complexes étape par étape. Il permet de 
  * produire différentes variations ou représentations d’un objet 
  * en utilisant le même code de construction.
+ * 
+ * Complexité 2/3
+ * Popularité 3/3
+ * 
+ * Le monteur est bien connu dans le monde du C#. Il se montre très 
+ * utile lorsque vous devez créer un objet possédant de nombreuses 
+ * configurations possibles.
  */
 
 namespace DesignPatternImplementation.Creational.Builder

@@ -11,6 +11,17 @@
  * à l'écran.
  */
 
+/* Poids mouche est un patron de conception structurel qui permet de stocker plus d’objets 
+ * dans la RAM en partageant les états similaires entre de multiples objets, plutôt que de 
+ * stocker les données dans chaque objet.
+ * 
+ * Complexité 3/3
+ * Popularité 1/3
+ * 
+ * Le poids mouche n’a qu’une seule utilité : minimiser l’utilisation de la mémoire. 
+ * Si votre programme ne rencontre aucun problème de RAM, ignorez ce patron pour le moment.
+ */
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

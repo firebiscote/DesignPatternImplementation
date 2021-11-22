@@ -6,10 +6,15 @@
  * qu'avec beaucoup d'objets similaires.
  */
 
-/* Complexité 1/3
+/* Singleton est un patron de conception de création qui garantit que l’instance 
+ * d’une classe n’existe qu’en un seul exemplaire, tout en fournissant un point 
+ * d’accès global à cette instance.
+ * 
+ * Complexité 1/3
  * Popularité 2/3
- * Garantit l'unicité d'une instance pour une classe
- * Fournit un point d'accès global à cette instance
+ * 
+ * Beaucoup de développeurs considèrent que le singleton est un antipatron. 
+ * C’est pourquoi il est de moins en moins utilisé en C#.
  */
 
 namespace DesignPatternImplementation.Creational.Singleton
