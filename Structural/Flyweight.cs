@@ -11,10 +11,6 @@
  * à l'écran.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace DesignPatternImplementation.Structural.FlyWeight
 {
     class Flyweight
