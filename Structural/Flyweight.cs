@@ -1,4 +1,4 @@
-﻿/*Le patron poids-mouche est l'approche pour utiliser de telles classes. 
+﻿/* Le patron poids-mouche est l'approche pour utiliser de telles classes. 
  * D'une part la classe avec ses données internes qui la rendent unique, 
  * et d'autre part les données externes passées à la classe en tant qu'arguments. 
  * Ce modèle est très pratique pour des petites classes très simples. 
