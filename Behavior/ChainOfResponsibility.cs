@@ -7,18 +7,17 @@
  * jusqu'à ce que l'un des objets puisse répondre.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Chaîne de responsabilité est un patron de conception comportemental 
+ * qui permet de faire circuler des demandes dans une chaîne de handlers. 
+ * Lorsqu’un handler reçoit une demande, il décide de la traiter ou de 
+ * l’envoyer au handler suivant de la chaîne.
  * 
- * Complexité 1/3
- * Popularité 3/3
+ * Complexité 2/3
+ * Popularité 1/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
- */ 
+ * La chaîne de responsabilité n’est pas souvent invitée dans les 
+ * programmes C#, car son intérêt réside dans la gestion du chaînage.
+ */
 
 using System;
 

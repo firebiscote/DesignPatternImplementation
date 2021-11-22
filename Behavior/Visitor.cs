@@ -7,17 +7,14 @@
  * comme des méthodes de ces objets.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Visiteur est un patron de conception comportemental qui vous permet de 
+ * séparer les algorithmes et les objets sur lesquels ils opèrent.
  * 
- * Complexité 1/3
- * Popularité 3/3
+ * Complexité 3/3
+ * Popularité 1/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * Le visiteur n’est pas un patron très répandu en C# à cause de sa 
+ * complexité et de la rareté de ses cas d’utilisation.
  */
 
 using System;

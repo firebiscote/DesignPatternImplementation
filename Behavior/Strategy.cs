@@ -4,17 +4,16 @@
  * utilisées en temps de guerre.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Stratégie est un patron de conception comportemental qui permet de définir 
+ * une famille d’algorithmes, de les mettre dans des classes séparées et de 
+ * rendre leurs objets interchangeables.
  * 
  * Complexité 1/3
  * Popularité 3/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * Le patron de conception stratégie est très répandu en C#. Il est souvent 
+ * utilisé dans divers frameworks pour fournir aux utilisateurs la possibilité 
+ * de modifier le comportement d’une classe sans l’étendre.
  */
 
 using System;

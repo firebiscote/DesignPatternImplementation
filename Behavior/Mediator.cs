@@ -4,17 +4,17 @@
  * classes.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Médiateur est un patron de conception comportemental qui diminue 
+ * les dépendances chaotiques entre les objets. Il restreint les 
+ * communications directes entre les objets et les force à collaborer 
+ * uniquement via un objet médiateur.
  * 
- * Complexité 1/3
- * Popularité 3/3
+ * Complexité 2/3
+ * Popularité 2/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * Le médiateur est le plus souvent utilisé en C# pour faciliter les 
+ * communications entre les composants de l’interface graphique d’une 
+ * application. Le contrôleur du modèle MVC est le synonyme du médiateur.
  */
 
 using System;

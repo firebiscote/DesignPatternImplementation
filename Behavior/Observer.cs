@@ -9,17 +9,17 @@
  * généralement en appelant une de leur méthode.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* L’Observateur est un patron de conception comportemental qui 
+ * permet de mettre en place un mécanisme de souscription pour 
+ * envoyer des notifications à plusieurs objets, au sujet d’événements 
+ * concernant les objets qu’ils observent.
  * 
- * Complexité 1/3
+ * Complexité 2/3
  * Popularité 3/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * L’observateur est assez répandu en C#, surtout dans les composants GUI. 
+ * Il fournit une manière de réagir aux événements qui se produisent chez 
+ * d’autres objets sans se coupler à leurs classes.
  */
 
 using System;

@@ -8,17 +8,16 @@
  * supplémentaires.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Itérateur est un patron de conception comportemental qui permet de 
+ * parcourir les éléments d’une collection sans révéler sa représentation 
+ * interne (liste, pile, arbre, etc.).
  * 
- * Complexité 1/3
+ * Complexité 2/3
  * Popularité 3/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * L’itérateur est très répandu en C#. Il est utilisé dans de nombreux 
+ * frameworks et bibliothèques pour fournir une méthode de parcours standard 
+ * de leurs collections.
  */
 
 using System;

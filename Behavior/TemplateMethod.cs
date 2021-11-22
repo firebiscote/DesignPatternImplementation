@@ -3,17 +3,17 @@
  * dans les sous-classes, qui implémenteront ces opérations.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Patron de Méthode est un patron de conception comportemental qui 
+ * permet de mettre le squelette d’un algorithme dans la classe mère, 
+ * mais laisse les sous-classes redéfinir certaines étapes de l’algorithme 
+ * sans changer sa structure.
  * 
  * Complexité 1/3
- * Popularité 3/3
+ * Popularité 2/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * Le patron de méthode est assez répandu en C#. Les développeurs l’emploient 
+ * souvent pour fournir un framework qui permet aux utilisateurs d’étendre des 
+ * fonctionnalités standards avec l’héritage.
  */
 
 using System;

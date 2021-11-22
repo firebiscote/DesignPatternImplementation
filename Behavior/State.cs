@@ -4,17 +4,15 @@
  * de l'État d'un objet sans pour autant en changer l'instance.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* État est un patron de conception comportemental qui permet de modifier 
+ * le comportement d’un objet lorsque son état interne change. L’objet donne 
+ * l’impression qu’il change de classe.
  * 
  * Complexité 1/3
- * Popularité 3/3
+ * Popularité 2/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * L’état est souvent utilisé en C# pour convertir de gros switch 
+ * (automates finis) en objets.
  */
 
 using System;

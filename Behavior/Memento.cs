@@ -3,17 +3,18 @@
  * (retour arrière) sans violer le principe d'encapsulation.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Mémento est un patron de conception comportemental qui 
+ * permet de sauvegarder et de rétablir l’état précédent d’un 
+ * objet sans révéler les détails de son implémentation.
  * 
- * Complexité 1/3
- * Popularité 3/3
+ * Complexité 3/3
+ * Popularité 1/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * Le principe du mémento peut être imité en utilisant la sérialisation, 
+ * ce qui est assez commun en C#. Ce n’est pas forcément la manière 
+ * la plus efficace de prendre des instantanés de l’état d’un objet, 
+ * mais il permet de stocker des sauvegardes de l’état tout en protégeant 
+ * la structure du créateur des autres objets.
  */
 
 using System.Collections.Generic;

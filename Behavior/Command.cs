@@ -8,17 +8,19 @@
  * de connaître les détails de l'action effectuée par la Commande.
  */
 
-/* L’Adaptateur est un patron de conception structurel qui 
- * permet de faire collaborer des objets ayant des 
- * interfaces normalement incompatibles.
+/* Commande est un patron de conception comportemental qui prend une 
+ * action à effectuer et la transforme en un objet autonome qui contient 
+ * tous les détails de cette action. Cette transformation permet de 
+ * paramétrer des méthodes avec différentes actions, planifier leur exécution, 
+ * les mettre dans une file d’attente ou d’annuler des opérations effectuées.
  * 
  * Complexité 1/3
  * Popularité 3/3
  * 
- * L’adaptateur est très répandu en C#. On le retrouve 
- * souvent dans des systèmes basés sur du code hérité, 
- * dans lesquels l’adaptateur fait fonctionner du code 
- * hérité avec des classes modernes.
+ * La commande est très répandue en C#. Elle est souvent utilisée comme une 
+ * alternative aux callbacks pour paramétrer les éléments d’une UI avec des actions. 
+ * Elle est également utilisée pour mettre des tâches dans une file d’attente, 
+ * suivre un historique de traitements, etc.
  */
 
 using System;
