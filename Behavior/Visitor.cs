@@ -1,10 +1,23 @@
-﻿/*Le visiteur est une manière de séparer un algorithme d'une structure 
+﻿/* Le visiteur est une manière de séparer un algorithme d'une structure 
  * de données. Un visiteur possède une méthode par type d'objet traité. 
  * Pour ajouter un nouveau traitement, il suffit de créer une nouvelle 
  * classe dérivée de la classe Visiteur. On n'a donc pas besoin de 
  * modifier la structure des objets traités, contrairement à ce qu'il 
  * aurait été obligatoire de faire si on avait implémenté les traitements 
  * comme des méthodes de ces objets.
+ */
+
+/* L’Adaptateur est un patron de conception structurel qui 
+ * permet de faire collaborer des objets ayant des 
+ * interfaces normalement incompatibles.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * L’adaptateur est très répandu en C#. On le retrouve 
+ * souvent dans des systèmes basés sur du code hérité, 
+ * dans lesquels l’adaptateur fait fonctionner du code 
+ * hérité avec des classes modernes.
  */
 
 using System;

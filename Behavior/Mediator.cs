@@ -1,7 +1,20 @@
-﻿/*Le patron de conception Médiateur fournit une interface 
+﻿/* Le patron de conception Médiateur fournit une interface 
  * unifiée pour un ensemble d'interfaces d'un sous-système. 
  * Il est utilisé pour réduire les dépendances entre plusieurs 
  * classes.
+ */
+
+/* L’Adaptateur est un patron de conception structurel qui 
+ * permet de faire collaborer des objets ayant des 
+ * interfaces normalement incompatibles.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * L’adaptateur est très répandu en C#. On le retrouve 
+ * souvent dans des systèmes basés sur du code hérité, 
+ * dans lesquels l’adaptateur fait fonctionner du code 
+ * hérité avec des classes modernes.
  */
 
 using System;

@@ -1,6 +1,19 @@
-﻿/*Un patron de méthode définit le squelette d'un algorithme à l'aide 
+﻿/* Un patron de méthode définit le squelette d'un algorithme à l'aide 
  * d'opérations abstraites dont le comportement concret se trouvera 
  * dans les sous-classes, qui implémenteront ces opérations.
+ */
+
+/* L’Adaptateur est un patron de conception structurel qui 
+ * permet de faire collaborer des objets ayant des 
+ * interfaces normalement incompatibles.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * L’adaptateur est très répandu en C#. On le retrouve 
+ * souvent dans des systèmes basés sur du code hérité, 
+ * dans lesquels l’adaptateur fait fonctionner du code 
+ * hérité avec des classes modernes.
  */
 
 using System;

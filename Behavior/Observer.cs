@@ -1,4 +1,4 @@
-﻿/*Le patron de conception observateur/observable est utilisé 
+﻿/* Le patron de conception observateur/observable est utilisé 
  * en programmation pour envoyer un signal à des modules qui 
  * jouent le rôle d'observateur. En cas de notification, les 
  * observateurs effectuent alors l'action adéquate en fonction 
@@ -7,6 +7,19 @@
  * l'objet observé maintient une liste d'observateurs et les 
  * notifient automatiquement de tout changement d'état, 
  * généralement en appelant une de leur méthode.
+ */
+
+/* L’Adaptateur est un patron de conception structurel qui 
+ * permet de faire collaborer des objets ayant des 
+ * interfaces normalement incompatibles.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * L’adaptateur est très répandu en C#. On le retrouve 
+ * souvent dans des systèmes basés sur du code hérité, 
+ * dans lesquels l’adaptateur fait fonctionner du code 
+ * hérité avec des classes modernes.
  */
 
 using System;

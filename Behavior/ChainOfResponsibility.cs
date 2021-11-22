@@ -1,4 +1,4 @@
-﻿/*Le patron de conception Chaîne de responsabilité permet 
+﻿/* Le patron de conception Chaîne de responsabilité permet 
  * à un nombre quelconque de classes d'essayer de répondre 
  * à une requête sans connaître les possibilités des autres 
  * classes sur cette requête. Cela permet de diminuer le 
@@ -6,6 +6,19 @@
  * objets étant cette requête qui passe d'un objet à l'autre 
  * jusqu'à ce que l'un des objets puisse répondre.
  */
+
+/* L’Adaptateur est un patron de conception structurel qui 
+ * permet de faire collaborer des objets ayant des 
+ * interfaces normalement incompatibles.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * L’adaptateur est très répandu en C#. On le retrouve 
+ * souvent dans des systèmes basés sur du code hérité, 
+ * dans lesquels l’adaptateur fait fonctionner du code 
+ * hérité avec des classes modernes.
+ */ 
 
 using System;
 

@@ -1,4 +1,4 @@
-﻿/*Commande est un patron de conception de type comportemental 
+﻿/* Commande est un patron de conception de type comportemental 
  * qui encapsule la notion d'invocation. Il permet de séparer 
  * complètement le code initiateur de l'action, du code de 
  * l'action elle-même. Ce patron de conception est souvent 
@@ -6,6 +6,19 @@
  * un item de menu peut être connecté à différentes Commandes 
  * de façons à ce que l'objet d'item de menu n'ait pas besoin 
  * de connaître les détails de l'action effectuée par la Commande.
+ */
+
+/* L’Adaptateur est un patron de conception structurel qui 
+ * permet de faire collaborer des objets ayant des 
+ * interfaces normalement incompatibles.
+ * 
+ * Complexité 1/3
+ * Popularité 3/3
+ * 
+ * L’adaptateur est très répandu en C#. On le retrouve 
+ * souvent dans des systèmes basés sur du code hérité, 
+ * dans lesquels l’adaptateur fait fonctionner du code 
+ * hérité avec des classes modernes.
  */
 
 using System;
