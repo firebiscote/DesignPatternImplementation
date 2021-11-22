@@ -5,7 +5,7 @@
 
 using System.Collections.Generic;
 
-namespace DesignPatternImplementation.Structural.Memento
+namespace DesignPatternImplementation.Behavior.Memento
 {
     public class Originator
     {

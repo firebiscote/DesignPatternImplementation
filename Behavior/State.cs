@@ -6,7 +6,7 @@
 
 using System;
 
-namespace DesignPatternImplementation.Structural.State
+namespace DesignPatternImplementation.Behavior.State
 {
     public interface ITool
     {
