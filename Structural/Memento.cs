@@ -3,11 +3,9 @@
  * (retour arrière) sans violer le principe d'encapsulation.
  */
 
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace DesignPatternImplementation.Structural
+namespace DesignPatternImplementation.Structural.Memento
 {
     public class Originator
     {
