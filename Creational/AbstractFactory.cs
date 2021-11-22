@@ -8,6 +8,13 @@
  * ensemble d'objets de leur usage générique.
  */
 
+/* Complexité 2/3
+ * Popularité 3/3
+ * Fabrique abstraite est un patron de conception qui permet de 
+ * créer des familles d’objets apparentés sans préciser leur 
+ * classe concrète.
+ */
+
 using System;
 
 namespace DesignPatternImplementation.Creational.AbstractFactory

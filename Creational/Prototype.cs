@@ -4,6 +4,12 @@
  * de façon appropriée.
  */
 
+/* Complexité 1/3
+ * Popularité 2/3
+ * Prototype est un patron de conception qui crée de nouveaux objets à partir 
+ * d’objets existants sans rendre le code dépendant de leur classe.
+ */
+
 using System;
 using System.Collections.Generic;
 

@@ -5,6 +5,13 @@
  * des paramètres passés à la fabrique.
  */
 
+/* Complexité 1/3
+ * Popularité 3/3
+ * Fabrique est un patron de conception de création qui définit 
+ * une interface pour créer des objets dans une classe mère, 
+ * mais délègue le choix des types d’objets à créer aux sous-classes.
+ */
+
 using System;
 
 namespace DesignPatternImplementation.Creational.Factory

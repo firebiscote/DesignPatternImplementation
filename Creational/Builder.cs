@@ -5,6 +5,14 @@
  * ensemble d'appels à l'interface commune de la classe abstraite Monteur.
  */
 
+/* Complexité 2/3
+ * Popularité 3/3
+ * Monteur est un patron de conception de création qui permet de 
+ * construire des objets complexes étape par étape. Il permet de 
+ * produire différentes variations ou représentations d’un objet 
+ * en utilisant le même code de construction.
+ */
+
 namespace DesignPatternImplementation.Creational.Builder
 {
     public class Pizza
