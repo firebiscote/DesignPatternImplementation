@@ -6,12 +6,13 @@
  * de conception Objet composite.
  */
 
-/* N/A
+/* Itérateur est un patron de conception comportemental qui permet de 
+ * parser puis d'executer une suite d'opérations dans un langage propre.
  * 
- * Complexité N/A
- * Popularité N/A
+ * Complexité Dépendent/3
+ * Popularité Spécifique/3
  * 
- * N/A
+ * Exemple, interpreter une suite d'opérations mathématiques.
  */
 
 using System.Collections.Generic;
